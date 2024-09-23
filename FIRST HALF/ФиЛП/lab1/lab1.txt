@@ -103,16 +103,17 @@ https://lisp-lang.org/learn/getting-started/
 					)
 
 					(
-						cond 
+						if (= 10 (+ first_learn second_learn))
 						(
-							(= 10 (+ first_learn second_learn))
-							(format t "~a~%" surname)
-
+							cons
+							surname
+							(all-five other)
 						)
+						(all-five other)
 					)				
 				)
 			)
-			(all-five other)
+			;(all-five other)
 		)
 	)
 )
