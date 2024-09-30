@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Chipers/abash_cipher.cpp"
+//g++ -o main.cpp
 
 
 int main() {
